@@ -22,7 +22,7 @@ impl Vertex {
     }
 }
 
-gfx_pipeline!( pipe {
+gfx_pipeline!( pipe {skljkhjkl
     vbuf: gfx::VertexBuffer<Vertex> = (),
     u_model_view_proj: gfx::Global<[[f32; 4]; 4]> = "u_model_view_proj",
     t_color: gfx::TextureSampler<[f32; 4]> = "t_color",
